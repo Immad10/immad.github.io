@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Muhammad Immad ud din | AI & ML Engineer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f5f7fa;
+      color: #222;
+    }
+    header {
+      background: #0f172a;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 30px 20px;
+    }
+    h2 {
+      color: #0f172a;
+      border-bottom: 2px solid #e5e7eb;
+      padding-bottom: 5px;
+    }
+    .project {
+      background: white;
+      padding: 20px;
+      margin: 15px 0;
+      border-radius: 6px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    }
+    a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Muhammad Immad ud din</h1>
+  <p>Computer Engineer | AI & Machine Learning</p>
+  <p>
+    <a href="https://github.com/immad123" style="color:#93c5fd">GitHub</a> •
+    <a href="https://huggingface.co/immad123" style="color:#93c5fd">Hugging Face</a>
+  </p>
+</header>
+
+<section>
+  <h2>About Me</h2>
+  <p>
+    I am a Computer Engineering graduate with strong experience in machine learning,
+    computer vision, and large language models. My work focuses on applying AI
+    to real-world problems, including healthcare, mental health, and intelligent systems.
+  </p>
+</section>
+
+<section>
+  <h2>Selected Projects</h2>
+
+  <div class="project">
+    <h3>LLaMA-based Mental Health Assistant</h3>
+    <p>Fine-tuned LLaMA using QLoRA for culturally-aware mental health conversations.</p>
+    <p>
+      <a href="#">GitHub</a> | <a href="#">Report (PDF)</a>
+    </p>
+  </div>
+
+  <div class="project">
+    <h3>Stroke Prediction using Machine Learning</h3>
+    <p>Applied feature selection, PCA, and KNN to improve healthcare predictions.</p>
+    <p>
+      <a href="#">GitHub</a> | <a href="#">Report (PDF)</a>
+    </p>
+  </div>
+
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <p>Email: yourname@email.com</p>
+</section>
+
+</body>
+</html>
