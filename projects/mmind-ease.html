@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>LLaMA-based Mental Health Assistant</title>
+  <title>AI-based Virtual Psychiatrist | Project</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <style>
@@ -23,15 +23,30 @@
       box-shadow: 0 6px 20px rgba(0,0,0,0.1);
     }
 
-    h1 {
+    h1, h2 {
       color: #0f172a;
     }
 
-    img {
+    h2 {
+      margin-top: 30px;
+      border-bottom: 2px solid #e5e7eb;
+      padding-bottom: 5px;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    video {
       width: 100%;
-      max-width: 700px;
+      max-width: 800px;
       margin: 20px 0;
       border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     }
 
     a {
@@ -40,8 +55,13 @@
       font-weight: bold;
     }
 
+    .downloads a {
+      display: inline-block;
+      margin-top: 10px;
+    }
+
     .back {
-      margin-top: 30px;
+      margin-top: 40px;
       display: inline-block;
     }
   </style>
@@ -51,27 +71,48 @@
 
   <div class="container">
 
-    <h1>LLaMA-based Mental Health Assistant</h1>
+    <h1>AI-based Virtual Psychiatrist</h1>
 
+    <h2>Project Description</h2>
     <p>
-      This project focuses on fine-tuning a LLaMA-based large language model using
-      QLoRA to provide culturally-aware mental health support. The system is designed
-      for anxiety and depression-related conversations while maintaining privacy and
-      ethical AI principles.
+      This project aims to develop an AI-based virtual psychiatrist tailored to support
+      individuals experiencing anxiety and depression. The system leverages a fine-tuned
+      Large Language Model based on Meta’s LLaMA architecture, trained on real conversational
+      data between patients and mental health professionals.
     </p>
 
-    <h2>Results</h2>
     <p>
-      The model demonstrated improved contextual understanding and culturally relevant
-      responses compared to base models.
+      The primary objective is to provide empathetic, context-aware, and culturally
+      sensitive mental health assistance while maintaining ethical AI practices and
+      data privacy.
     </p>
 
-    <img src="../images/mmind-ease.png" alt="Mmind Ease Screenshot">
+    <h2>Tech Stack</h2>
+    <ul>
+      <li><strong>Model Training:</strong> LLaMA, Kaggle, Google Colab, TensorFlow, Hugging Face</li>
+      <li><strong>Development:</strong> React (Frontend), Node.js (Backend), VS Code, GitHub</li>
+      <li><strong>Data Handling:</strong> Custom curated conversational dataset</li>
+    </ul>
+
+    <h2>Project Demo</h2>
+    <video controls>
+      <source src="../videos/mmind-ease-demo.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <h2>Skills & Deliverables</h2>
+    <ul>
+      <li>Python</li>
+      <li>Generative AI</li>
+      <li>API Development</li>
+      <li>Hugging Face</li>
+      <li>MongoDB</li>
+    </ul>
 
     <h2>Downloads</h2>
-    <p>
-      <a href="../mmind-ease-report.pdf" download>Download Project Report (PDF)</a>
-    </p>
+    <div class="downloads">
+      <a href="../mmind-ease-report.pdf" download>📄 Download Project Report (PDF)</a>
+    </div>
 
     <p class="back">
       <a href="../index.html">← Back to Projects</a>
@@ -81,4 +122,3 @@
 
 </body>
 </html>
-
